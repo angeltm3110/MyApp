@@ -1,15 +1,16 @@
 
 import './App.css';
 import Menu from './componentes/navbar/navbar'
-import cartWidget from './componentes/cartWidget/cartWidget'
-import itemListContainer from "./componentes/listContainer/itemListContainer"
+import CartWidget from './componentes/cartWidget/cartWidget'
+import ItemListContainer from "./componentes/listContainer/itemListContainer"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 function App() {
   return (
     <div className="App">
         <Menu/>
-        <cartWidget/>
-        <itemListContainer
+        <ItemListContainer
           saludo="Hola coder"
           greeting="Angel"
         />

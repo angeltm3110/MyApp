@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from "../cartWidget/cartWidget";
 
 
 
@@ -25,6 +26,7 @@ export default function Menu() {
             </ul>
             </div>
         </div>
+        <CartWidget/>
         </nav>
     );
 

@@ -1,10 +1,11 @@
 import React from "react";
 
-export default function itemListContainer(props) {
+
+export default function ItemListContainer(props) {
     return(
 
         <>
-            <h2>{props.greeting} {props.usuario}</h2>
+            <h2>{props.greeting} {props.saludo}</h2>
         </>
     );
 
